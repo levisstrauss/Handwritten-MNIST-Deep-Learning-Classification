@@ -1,0 +1,26 @@
+# ========================================================================
+# DOCKER-COMPOSE.YML
+# ========================================================================
+
+services:
+  mnist-trainer:
+    build: .
+    container_name: mnist-classifier
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    command: python src/train.py --arch improved --epochs 15 --gpu
+
+  mnist-predictor:
+    build: .
+    container_name: mnist-predictor
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./test_images:/app/test_images
+    environment:
+      - PYTHONPATH=/app
+    command: python src/predict.py --image test_images/sample.png --model models/best_model.pth
