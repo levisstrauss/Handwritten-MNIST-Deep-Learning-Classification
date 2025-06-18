@@ -382,7 +382,7 @@ If you use this work in your research, please cite:
   author={Zakaria Coulibaly},
   year={2025},
   publisher={GitHub},
-  url={https://github.com/levisstrauss11/Handwritten-MNIST-Deep-Learning-Classification}
+  url={https://github.com/levisstrauss/Handwritten-MNIST-Deep-Learning-Classification}
 }
 ```
 
