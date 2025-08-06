@@ -260,17 +260,6 @@ python src/optimize.py --model models/best_model.pth --output models/optimized_m
 
 ---
 
-## 📈 Future Enhancements
-
-- [ ] **Convolutional Neural Network**: Implementation of CNN architecture for spatial feature learning
-- [ ] **Data Augmentation**: Advanced augmentation techniques (elastic deformations, mixup)
-- [ ] **Ensemble Methods**: Multiple model voting for improved accuracy
-- [ ] **Model Quantization**: INT8 quantization for mobile deployment
-- [ ] **Real-time API**: REST API with Flask/FastAPI for production serving
-- [ ] **MLOps Pipeline**: CI/CD integration with model monitoring and retraining
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
@@ -313,23 +302,6 @@ tensorboard>=2.8.0
 - **MNIST Creators** – Fundamental dataset for machine learning research
 - **Academic Community** – Foundational research in neural networks and optimization
 - **Open Source Contributors** – Tools and libraries that make this work possible
-
----
-
-## 📊 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{mnist-deep-learning-2025,
-  title={MNIST Handwritten Digit Recognition: Deep Learning Excellence},
-  author={Zakaria Coulibaly},
-  year={2025},
-  publisher={GitHub},
-  url={https://github.com/levisstrauss/Handwritten-MNIST-Deep-Learning-Classification}
-}
-```
-
 ---
 
 ## 📄 License
